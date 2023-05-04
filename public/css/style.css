@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 4rem;
+  }
+  
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 3rem;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  button[type="submit"] {
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+  }
+  
+  .qr-box {
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media screen and (max-width: 480px) {
+    main {
+      padding: 10px;
+    }
+    
+    input[type="text"] {
+      font-size: 5rem;
+    }
+    
+    button[type="submit"] {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
